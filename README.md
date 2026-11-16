@@ -9,3 +9,11 @@ Static site (HTML + CSS, no build step), served by GitHub Pages.
 - `assets/cv.pdf` — your CV (linked from the top bar)
 
 Preview locally: `python3 -m http.server` then open http://localhost:8000
+
+## Template
+
+The live pages are intentionally empty (headings only). A fully filled-in example
+of every block is kept on the `template` branch:
+
+    git show template:index.html
+    git show template:teaching/ai-governance.html
